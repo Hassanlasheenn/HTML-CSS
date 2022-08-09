@@ -1,0 +1,399 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    max-width: 2000px;
+    background-color: black;
+
+
+}
+
+.container{
+    min-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    background-color: white;
+}
+
+header img{
+    margin-top: 70px;
+    margin-left: 50px;
+    background-color: hsl(170, 45%, 43%);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    color: hsl(238, 22%, 44%);
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+#features{
+    color: hsl(238, 22%, 44%);
+}
+#features:hover{
+    cursor: pointer;
+    color: hsl(239, 100%, 44%);
+}
+
+#team{
+    color: hsl(238, 22%, 44%);
+}
+#team:hover{
+    cursor: pointer;
+    color: hsl(239, 100%, 44%);
+}
+
+#sign-in{
+    color: hsl(238, 22%, 44%);
+}
+#sign-in:hover{
+    cursor: pointer;
+    color: hsl(239, 100%, 44%);
+}
+
+
+
+
+.headers h4{
+    font-weight: 400;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    /* margin-top: 80px; */
+    background-color: white;
+    height: 70vh;
+}
+
+.left-container-1{
+    width: 800px;
+    margin-left: 50px;
+
+}
+
+.left-container-1 h1{
+    line-height: 50px;
+    width: 530px;
+    
+}
+
+.left-container-1 h4{
+    width: 500px;
+    margin-top: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: .5px solid black;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(224, 95%, 68%);
+}
+
+.right-container-1 img{
+    width: 600px;
+    margin-right: 50px;
+}
+
+
+.container-2{
+    background: url(./pictures/fylo-landing-page/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 50px center;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    width: 1200px;
+    /* margin-top: 200px; */
+}
+
+.left-container-2{
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+
+.left-container-2 #container-2-text{
+    font-weight: 400;
+    margin-top: 35px;
+    width: 550px;
+}
+
+.left-container-2 #container-2-text-2{
+    font-weight: 400;
+    margin-top: 20px;
+    width: 520px;
+}
+
+.left-container-2 a #anchor{
+    color: hsl(170, 45%, 43%);
+    margin-top: 20px;
+    font-weight: 400;
+    width: 200px;
+    text-decoration: underline hsl(170, 45%, 43%);
+}
+
+.left-container-2-1{
+    background-color: white;
+    margin-top: 80px;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.left-container-2-1 #small-container-2-1{
+    font-weight: 400;
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.person #person{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.person-name{
+    margin-left: 10px;
+}
+
+.person-name #founder{
+    font-weight: 400;
+}
+.right-container-2 img{
+    width: 500px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    width: 1200px;
+    padding: 70px;
+    color: hsl(240, 75%, 98%);
+}
+
+.left-container-3 #text-container-3{
+    width: 480px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.right-container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+#email{
+    border-radius: 20px;
+    border: .5px solid black;
+}
+
+.right-container-3 #btn-3{
+    margin-top: 20px;
+    margin-right: 200px;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 20px;
+
+}
+
+#btn-3:hover{
+    cursor: pointer;
+    background-color: hsl(224, 95%, 68%);
+}
+
+
+
+.right-container-3 #email{
+    width: 400px;
+    height: 40px;
+}
+
+.container-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: hsl(243, 87%, 12%);
+    width: 1200px;
+    height: 30vh;
+    color: hsl(240, 75%, 98%);
+}
+
+.container-4 #logo-4{
+    background-color: hsl(170, 45%, 43%);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 40px;
+    margin-left: 30px;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    line-height: 30px;
+}
+
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 100px;
+    line-height: 30px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 200px;
+}
+
+.second-container h5, .third-container h5{
+    font-weight: 400;
+    color: hsl(240, 75%, 98%);
+}
+
+.second-container h5:hover, .third-container h5:hover{
+    cursor: pointer;
+    color: hsl(240, 23%, 61%);
+}
+
+
+.phone{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+}
+
+.mail{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+}
+
+#phone-4, #mail-4{
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+#facebook, #instagram, #mail, #twitter, #phone{
+    width: 20px;
+    height: 20px;
+
+}
+
+#facebook, #twitter, #instagram, #phone, #mail{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.social-media img, #phone, #mail{
+    background-color: white;
+}
+
+.social-media img:hover{
+    cursor: pointer;
+    background-color: hsl(224, 93%, 58%);
+}
+
+
