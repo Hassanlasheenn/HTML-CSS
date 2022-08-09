@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    max-width: 400px;
+    max-height: 85vh;
+    height: 300vh;
+    border-radius: 15px;
+}
+
+.img-sec img{
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.middle-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.paragraph{
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+    padding: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+
+.under-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+
+.etherium{
+    margin: 20px 0 0 30px;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock{
+    margin: 20px 30px 0 0;
+    color: hsl(215, 51%, 70%);
+}
+
+.clock span{
+    display: inline-block;
+}
+
+.lower-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}
+
+.human img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 30px 0 0 30px;
+}
+
+.creation{
+    padding: 25px 0 0 15px;
+}
+.creation span{
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+
+.creation p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+}
+
+.line{
+    display: flex;
+    justify-content: space-evenly;
+    border: .5px solid hsl(215, 32%, 27%);
+    margin: 30px 30px -40px 30px;
+}
